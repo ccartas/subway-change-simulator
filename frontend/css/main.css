@@ -1,0 +1,60 @@
+html, body{
+    height:100%;
+}
+.full-screen{
+    height:100%;
+    background-image: url('../media/034761-metro-station-selective-coloring-subway-trains-underground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.my-title{
+    margin:0 auto;
+    padding-top:5%;
+    color:white;
+    text-align:center;
+}
+.transparent-input{
+    background-color: transparent;
+    border: 3px white solid;
+    color: white;
+    font-size: medium;
+    text-align:center;
+    height: 70px;
+}
+.transparent-input-button{
+    background-color: transparent;
+    border: 4px white solid;
+    color: white;
+    font-size: medium;
+    text-align:center;
+    height: 70px;
+}
+.transparent-input-button:hover, .transparent-input-button:active, .transparent-input-button:focus{
+    background-color: transparent !important;
+    border: 4px white solid !important;
+    color: white !important;
+    font-size: medium !important;
+    text-align: center !important;
+    height: 70px !important;
+}
+
+.tested{
+    padding-left: 25px;
+}
+.container{
+    display:table;
+    vertical-align: middle;
+    width:40%;
+    padding-top:25%;
+}
+.vertical-center-row{
+    display:table-cell;
+    vertical-align:middle;
+}
+.change-list{
+    padding-top:40px;
+}
+.error-message{
+    margin-top: 25px;
+}

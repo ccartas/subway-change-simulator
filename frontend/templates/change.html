@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<div ng-controller="MainController">
+    <div class="container">
+
+        <div class="vertical-center-row">
+            <div class="input-group">
+                <input type="text" class="form-control transparent-input" name="amount" is-numeric ng-model="valid.amount"/><span class="input-group-btn tested">
+                <button class="btn btn-primary transparent-input-button" type="button" ng-click="computeAvailable(valid.amount)">Get Change!</button>
+            </span>
+            </div>
+            <div error-message ng-model="error.errorMessage" ng-show="error.errorMessage != ''" class="alert alert-danger error-message"><strong>{{error.errorMessage}}</strong></strong></div>
+
+            <ul class="list-group change-list">
+                <li ng-repeat="c in change" ng-show="c.value > 0 && error.errorMessage == ''" class="list-group-item">
+                    <span class="badge">{{c.value}}</span>
+                    {{c.name}}
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+
+</div>
