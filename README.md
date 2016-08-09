@@ -12,7 +12,7 @@ Project contains:
 
 1. Make sure you have installed NodeJS and Node Package Manager (npm). If not: https://docs.npmjs.com/getting-started/installing-node
 2. Start the NodeJS server with the following command:
-   node server.js
+   `node server.js`
 
 Business Logic:
 
