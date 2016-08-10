@@ -9,6 +9,7 @@
 
     MainController.$inject = ['$scope']
 
+
     function MainController($scope){
 
         $scope.computeChange = function(amount){
@@ -39,7 +40,7 @@
                 }
             }
             if(totalAvailable >= (amount*100)) {
-                for (var i = $scope.values.length - 1; i > 0; i--) {
+                for (var i = $scope.values.length - 1; i >= 0; i--) {
                     var maxAmount = 0;
                     var minAmount = 0;
                     maxAmount = Math.floor(amount / $scope.availableMoney[i].value);
