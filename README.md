@@ -22,7 +22,11 @@ Project contains:
 
 - Karma configuration file can be found on the following path:
 	`node_modules/karma/bin/karma.conf.js`
-- If the `karma` command is not recognized:
+- Install Karma by using the following command:
+        `npm install karma --save-dev`
+- In order to install the Jasmine Test Framework and Google Chrome browser plugin:
+        `npm install karma-jasmine karma-chrome-launcher --save-dev`
+- If the `karma` command is not recognized install it globally:
 	`npm install -g karma-cli`
 
 
